@@ -1,0 +1,1 @@
+flag{for_i_in_{800..0};do_tar_xzvf_$i;done_&&_cat_flag}

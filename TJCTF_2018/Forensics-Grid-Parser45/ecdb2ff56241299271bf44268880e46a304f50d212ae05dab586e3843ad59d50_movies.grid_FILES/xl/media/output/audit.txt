@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Aug 11 21:26:43 2018
+Invocation: foremost password.png 
+Output directory: /home/l1b0/Downloads/ecdb2ff56241299271bf44268880e46a304f50d212ae05dab586e3843ad59d50_movies.grid_FILES/xl/media/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: password.png
+Start: Sat Aug 11 21:26:43 2018
+Length: 1 KB (2003 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000003.zip 	      224 B 	       1780 	 
+1:	00000000.png 	       1 KB 	          0 	  (207 x 138)
+Finish: Sat Aug 11 21:26:43 2018
+
+2 FILES EXTRACTED
+	
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Aug 11 21:26:43 2018
