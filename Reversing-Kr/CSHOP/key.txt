@@ -1,0 +1,15 @@
+DC4: W
+DEL1: 5
+DEL2: 4
+DC1: R
+ETX: E
+EM: 6
+NAK: M
+?DC4: I
+DEL1: P
+STX: S
+?DC4: P
+NAK: 6
+SOH: S
+
+P4W6RP6SES
