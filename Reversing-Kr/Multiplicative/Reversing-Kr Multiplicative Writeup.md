@@ -1,4 +1,0 @@
-# Reversing-Kr Multiplicative Writeup
-
-> 
-
