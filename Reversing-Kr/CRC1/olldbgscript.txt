@@ -1,0 +1,6 @@
+bp 401142
+loop:
+	run
+	log edi
+	log ecx
+	jmp loop
