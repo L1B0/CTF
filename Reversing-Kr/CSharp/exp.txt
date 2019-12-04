@@ -1,0 +1,13 @@
+>>> result = [74,87,77,70,29,49,117,238,241,226,163,44]
+>>> len(result)
+12
+>>> key = [16,17,33,51,68,102,51,160,144,181,238,17]
+>>> len(key)
+12
+>>> import base64
+>>> s = ''.join(map(chr,[result[i]^key[i] for i in range(12)]))
+>>> s
+'ZFluYWFNaWM='
+>>> base64.b64decode(_)
+'dYnaaMic'
+>>>
