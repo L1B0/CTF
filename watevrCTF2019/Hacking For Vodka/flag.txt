@@ -1,0 +1,16 @@
+>>> s = 'lnn\\}jsX|ae~kezPyeMdufIcpxnDy|mf'
+>>> s = map(ord,s)
+>>> s = [s[i]^i for i in range(len(s))]
+>>> s
+[108, 111, 108, 95, 121, 111, 117, 95, 116, 104, 111, 117, 103, 104, 116, 95, 105, 116, 95, 119, 97, 115, 95, 116, 104, 97, 116, 95, 101, 97, 115, 121]
+>>> ''.join(map(chr,s))
+'lol_you_thought_it_was_that_easy'
+>>> 
+
+
+>>> s = 'w`vfrw}s`=d`9Rf;sz#}sJpxjFi+vhAwABIJJB@HZZEAY\003ZJQ\\O'
+>>> s = map(ord,s)
+>>> s = [s[i]^i for i in range(len(s))]
+>>> ''.join(map(chr,s))
+'watevr{th4nk5_h4ck1ng_for_s0ju_hackingforsoju.team}'
+>>>
