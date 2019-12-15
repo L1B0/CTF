@@ -1,0 +1,5 @@
+root@libo:~/Desktop# nc 13.48.42.211 50000
+Welcome to watshell, we ofcourse use our own super secure cryptographic functions to ensure user privacy!
+Command: 181 118 222 238 127 252 238 127 129 234 238 127 163 114 158 181 127 216 114 238 158 124 238 
+Alright, alright watevr{oops_1_f0rg0t_to_use_r4ndom_k3ys!_youtube.com/watch?v=BaACrT6Ydik}
+root@libo:~/Desktop# 
