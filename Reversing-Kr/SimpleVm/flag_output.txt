@@ -1,0 +1,5 @@
+>>> key = [96,102,21,7,76,99,120]
+>>> encrypt_flag = [9,2,38,45,34,7,16]
+>>> flag = ''.join(map(chr,[key[i]^encrypt_flag[i] for i in range(7)]))
+>>> flag
+>>>

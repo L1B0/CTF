@@ -1,0 +1,89 @@
+dword_804B190 = 10
+opcode[9] = 16
+dword_804B190 = 2
+opcode[96] = 7
+dword_804B190 = 6
+opcode[0]^opcode[7]=97^96=1
+dword_804B190 = 2
+opcode[9] = 7
+dword_804B190 = 7
+opcode[7] = 9
+7
+ 9 == 1?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[102] = 7
+dword_804B190 = 6
+opcode[1]^opcode[7]=98^102=4
+dword_804B190 = 2
+opcode[2] = 7
+dword_804B190 = 7
+opcode[7] = 2
+7
+ 2 == 4?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[21] = 7
+dword_804B190 = 6
+opcode[2]^opcode[7]=99^21=118
+dword_804B190 = 2
+opcode[38] = 7
+dword_804B190 = 7
+opcode[7] = 38
+7
+ 38 == 118?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[7] = 7
+dword_804B190 = 6
+opcode[3]^opcode[7]=100^7=99
+dword_804B190 = 2
+opcode[45] = 7
+dword_804B190 = 7
+opcode[7] = 45
+7
+ 45 == 99?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[76] = 7
+dword_804B190 = 6
+opcode[4]^opcode[7]=101^76=41
+dword_804B190 = 2
+opcode[34] = 7
+dword_804B190 = 7
+opcode[7] = 34
+7
+ 34 == 41?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[99] = 7
+dword_804B190 = 6
+opcode[5]^opcode[7]=102^99=5
+dword_804B190 = 2
+opcode[7] = 7
+dword_804B190 = 7
+opcode[7] = 7
+7
+ 7 == 5?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[120] = 7
+dword_804B190 = 6
+opcode[6]^opcode[7]=103^120=31
+dword_804B190 = 2
+opcode[16] = 7
+dword_804B190 = 7
+opcode[7] = 16
+7
+ 16 == 31?
+dword_804B190 = 9
+dword_804B190 = 2
+opcode[1] = 0
+dword_804B190 = 11
+nothing.
+dword_804B190 = 0
+Press any key to continue
+
+
+
+
