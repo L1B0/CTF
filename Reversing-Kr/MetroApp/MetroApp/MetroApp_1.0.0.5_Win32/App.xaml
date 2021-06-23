@@ -1,0 +1,21 @@
+﻿<Application
+    x:Class="MetroApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MetroApp">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+
+                <!-- 
+                    플랫폼 모양 및 느낌의 일반적인 측면을 정의하는 스타일입니다.
+                    Visual Studio 프로젝트 및 항목 템플릿에 필요합니다.
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

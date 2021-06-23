@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <!--
+    이 패키지 매니페스트 파일은 빌드 프로세스에 의해 생성됩니다.
+
+    이 파일을 다시 생성하면 변경 내용이 손실됩니다. 이 파일의 오류를 수정하려면 소스 .appxmanifest 파일을 편집하십시오.
+
+    패키지 매니페스트 파일에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=241727을 참조하십시오.
+  -->
+  <Identity Name="c7a3ad71-a907-4cf1-9925-2d5ac538d64e" Publisher="CN=3735943886" Version="1.0.0.5" ProcessorArchitecture="x86" />
+  <Properties>
+    <DisplayName>MetroApp</DisplayName>
+    <PublisherDisplayName>3735943886</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="KO-KR" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="MetroApp.exe" EntryPoint="MetroApp.App">
+      <VisualElements DisplayName="MetroApp" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="MetroApp" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+  <Dependencies>
+    <PackageDependency Name="Microsoft.VCLibs.110.00" MinVersion="11.0.51106.1" />
+  </Dependencies>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="17.00.51106.1 built by: Q11REL" />
+    <build:Item Name="VisualStudio" Version="11.0" />
+    <build:Item Name="OperatingSystem" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="11.0.51106.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="11.0.51106.1" />
+    <build:Item Name="MakePri.exe" Version="6.2.9200.16384 (win8_rtm.120725-1247)" />
+  </build:Metadata>
+</Package>
