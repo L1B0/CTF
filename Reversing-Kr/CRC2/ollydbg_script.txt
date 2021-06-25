@@ -1,0 +1,5 @@
+bp 4F15C3
+loop:
+	run
+	log eax
+	jmp loop
