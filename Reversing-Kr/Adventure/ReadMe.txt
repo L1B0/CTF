@@ -1,0 +1,1 @@
+flag is lowercase(md5(flag1 + flag2))
